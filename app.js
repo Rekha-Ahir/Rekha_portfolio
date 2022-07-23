@@ -4,7 +4,7 @@ const bodyparser=require('body-parser')
 const path=require('path');
 
 const port =process.env.PORT||8000
-const static_path = path.join(__dirname,"../public/js");//we add path yrr
+const static_path = path.join(__dirname,"../public/js/index.html");
 app.use(express.static(static_path));
 app.get('/', (req, res)=>{
    
