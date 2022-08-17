@@ -73,6 +73,11 @@ font-family: 'Kdam Thmor Pro', sans-serif;*/
     font-family: 'Kdam Thmor Pro', sans-serif;
     margin: 1vw 0vw;
   }
+  .about h5 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  font-size: 3vw;}
   .about2{
     font-size: 3vw;
     font-family: 'Kdam Thmor Pro', sans-serif;
